@@ -1,0 +1,8 @@
+{
+  "name": "mirai",
+  "private": true,
+  "dependencies": {
+    "susy": "~2.2.6",
+    "modernizr": "~3.2.0"
+  }
+}
