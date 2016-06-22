@@ -1,0 +1,64 @@
+// Breakpoints
+
+$breakpoints: (
+  'tiny'  : ( max-width: 20em ), // 320px
+  'small' : ( min-width: 30em ), // 480px
+  'medium': ( min-width: 48em ), // 768px
+  'large' : ( min-width: 56.25em ), // 900px
+  'huge'  : ( min-width: 68.75em ), // 1100px
+  'giant' : ( min-width: 81.25em ), // 1300px
+);
+
+// We use these to define default font weights
+$font-weight-normal: 300 !default;
+$font-weight-bold: bold !default;
+
+// We use these to control various global styles
+$body-bg: #fff;
+$body-font-size: 1.6rem;
+$body-font-color: #6a6a6a;
+$body-font-family: "Open Sans", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
+
+// We use this to control font-smoothing
+$font-smoothing: antialiased;
+
+// We use these to control text direction settings
+$text-direction: ltr;
+$opposite-direction: right;
+$default-float: left;
+
+// Load External Fonts here
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,300italic,700italic);
+
+// We use these to control header font styles
+$header-font-family: "Roboto Slab", Georgia, Times, 'Times New Roman', serif;
+$header-font-weight: $font-weight-normal;
+$header-font-style: normal;
+$header-font-color: #222;
+$header-line-height: 1.4;
+$header-top-margin: .2rem;
+$header-bottom-margin: .5rem;
+$header-text-rendering: optimizeLegibility;
+
+// Colours
+$primary-color: #2F4193;
+$secondary-color: #29A7E9;
+$cta-color: #ff0000;
+$alert-color: #FF665A;
+$success-color: #AEE88A;
+$warning-color: #FFCA63;
+$info-color: #79DCE8;
+
+// Shades
+$light: #ffffff;
+$dark: #000000;
+$light-grey: #f5f5f5;
+$medium-grey: #cccccc;
+$dark-grey: #aeaeae;
+
+// We use these to make sure border radius matches unless we want it different.
+$global-radius: 4px;
+$global-rounded: 1000px;

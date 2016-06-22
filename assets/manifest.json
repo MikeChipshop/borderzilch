@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    },
+    "main.js": {
+      "files": [
+        "scripts/**/*",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://bordernone.dev"
+  }
+}

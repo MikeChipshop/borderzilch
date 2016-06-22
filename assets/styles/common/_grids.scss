@@ -1,0 +1,11 @@
+// Requirements
+// ============
+
+@import "../bower_components/susy/sass/_susy.scss";
+
+$susy: (
+  columns: 12,
+  gutters: 1/2,
+  gutter-position: split,
+  container: 1180px,
+);

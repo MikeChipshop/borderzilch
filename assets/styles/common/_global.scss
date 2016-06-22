@@ -1,0 +1,44 @@
+// -------------------------------------------------------------
+// Global styles
+// -------------------------------------------------------------
+
+html {
+	background: darken($light, 5%);
+	font-size: 62.5%;
+}
+
+body {
+	font-family: $body-font-family;
+	font-size: $body-font-size;
+}
+
+.site-content, .container {
+	@include container();
+	padding-left: 1.25em;
+	padding-right: 1.25em;
+
+	@include bp(large) {
+		padding: 0;
+	}
+}
+
+.content-area {
+	@include bp(medium) {
+		@include span(9 of 12);
+		padding-right: 0;
+	}
+}
+
+.widget-area {
+	@include bp(medium) {
+		@include span(3 of 12 last);
+		padding-left: 0;
+	}
+}
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: $primary-color;
+}

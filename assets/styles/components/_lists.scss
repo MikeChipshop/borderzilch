@@ -1,0 +1,46 @@
+// General Lists
+
+ul, ol, dl {
+	line-height:1.6em;
+
+	h2 {
+		padding:0 0 0.75em 0;
+		font-size:1.375em;
+		text-align:left;
+		margin:0;
+
+		&:before, &:after {
+			display:none;
+		}
+	}
+}
+
+// Unordered Lists
+ul {
+	list-style: disc;
+
+	ul {
+		list-style: circle;
+	}
+}
+
+// Ordered List
+
+ol {
+	ol {
+		list-style: lower-roman;
+	}
+}
+
+dl {
+	padding:0 0 2.75em 0;
+
+	dt {
+		padding:1.5em 0 0.5em 0;
+		font-size:1.0625em;
+	}
+
+	dd {
+		font-size:1em;
+	}
+}

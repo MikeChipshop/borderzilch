@@ -1,0 +1,84 @@
+.comment-list {
+
+}
+.comment-list ol {
+  list-style: none;
+}
+.comment-form p {
+  @extend .form-group;
+}
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+  @extend .form-control;
+}
+.comment-form input[type="submit"] {
+  @extend .btn;
+  @extend .btn-primary;
+}
+
+.comment-list, .comment-list .children  {
+	display: block;
+    max-width: 604px;
+    width: 100%;
+
+    li {
+    	float: left;
+    	padding-bottom: 1.25em;
+    	margin-bottom: 1.25em;
+    	border-bottom: 1px dotted darken($light, 10%);
+    	&:before {
+    		display: none;
+    	}
+    }
+}
+
+.highlander-comment {
+	margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.comment-body {
+	padding: 24px 0;
+    position: relative;
+}
+
+.comment-meta, .comment-meta a {
+	color: #a2a2a2;
+    font-size: 13px;
+}
+
+.comment-metadata, .comment-awaiting-moderation, .comment-content, .comment-list .reply {
+	float: right;
+    width: 79%;
+    width: -webkit-calc(100% - 124px);
+    width: calc(100% - 124px);
+    word-wrap: break-word;
+}
+
+.comment-author {
+	float: left;
+    max-width: 74px;
+}
+
+.comment-author .avatar {
+	display: block;
+    margin-bottom: 10px;
+}
+
+.comment-author .fn, .comment-author .url, .comment-reply-link, .comment-reply-login {
+	font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: $primary-color;
+}
+
+.says {
+	display: none;
+}
+
+.comment-respond {
+	clear: both;
+}
+

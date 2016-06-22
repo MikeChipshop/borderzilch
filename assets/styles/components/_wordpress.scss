@@ -1,0 +1,65 @@
+// WordPress Generated Classes
+// http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+
+pre {
+	background: darken($light, 10%);
+    color: #666;
+    font-family: monospace;
+    font-size: 14px;
+    margin: 1.25em 0;
+    overflow: auto;
+    padding: 1.25em;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.entry-content img, .entry-summary img, .comment-content img, .widget img, .wp-caption {
+	max-width: 100%;
+}
+
+.alignleft, .alignright, .aligncenter, .alignnone {
+	position: relative;
+	margin-bottom: 1.25em;
+
+	figcaption {
+		float: left;
+		width: 100%;
+		position: relative;
+		padding: .625em;
+		font-size: 1.4rem;
+		font-family: $header-font-family;
+		background: darken($light, 10%);
+	}
+}
+
+.alignleft {
+	float: left;
+	margin-right: 1.25em;
+}
+
+.alignright {
+	float: right;
+	margin-left: 1.25em;
+}
+
+.aligncenter {
+	float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignnone {
+	display: inline;
+	margin-bottom: 1.25em;
+	figcaption {
+		float: left;
+		width: 100%;
+		position: relative;
+		padding: .625em;
+		font-size: 1.4rem;
+		font-family: $header-font-family;
+		background: darken($light, 10%);
+	}
+}

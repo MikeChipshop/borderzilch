@@ -1,0 +1,23 @@
+table {
+    margin: 0 0 1.25em;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1.4rem	;
+    line-height: 2;
+
+    th {
+    	font-weight: bold;
+    	text-transform: uppercase;
+    }
+
+    td {
+    	border-top: 1px solid darken($light, 20%);
+    	padding: 6px 10px 6px 0;
+    }
+
+    caption, th, td {
+    	font-weight: normal;
+   		text-align: left;
+    }
+}  

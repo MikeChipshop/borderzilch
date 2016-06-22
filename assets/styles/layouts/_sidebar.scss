@@ -1,0 +1,12 @@
+.widget-area {
+
+	.widget {
+		ul {
+			li {
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+}

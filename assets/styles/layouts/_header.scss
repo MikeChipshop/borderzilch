@@ -1,0 +1,7 @@
+header.site-header {
+	padding: 2.5em 0;
+
+	.brand {
+		@include span(4 of 12);
+	}
+}

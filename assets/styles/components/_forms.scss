@@ -1,0 +1,26 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+}
+
+input[type="text"], input[type="email"], input[type="url"], textarea { 
+	padding: .625em;
+	@include rounded;
+	border: none;
+	width: 100%;
+}
+
+label {
+	display: block;
+}
